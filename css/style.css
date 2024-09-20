@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+p {
+  font-size: 18px;
+  padding: 5px;
+  line-height: 35px;
+  color: #686868;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  z-index: 5;
+}
+.navbar .container {
+  width: 90%;
+  margin: auto;
+}
+.navbar .logo {
+  float: left;
+  width: 15%;
+}
+.logo img {
+  width: 100%;
+}
+.navbar .links ul {
+  float: right;
+}
+.navbar .links ul li {
+  float: left;
+  padding: 15px;
+  font-size: 18px;
+}
+.clr {
+  clear: both;
+}
+.rightelement {
+  width: 40px;
+  position: fixed;
+  right: 0;
+  top: 50vh;
+  background-color: aliceblue;
+  z-index: 9999;
+}
+.rightelement img {
+  width: 100%;
+}
+/* home */
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+.home .home_content {
+  text-align: center;
+  margin-top: 260px;
+  color: #ffffff;
+}
+
+.home_content h1 {
+  font-size: 55px;
+  margin: 25px 0;
+  font-weight: bold;
+}
+.home_content p {
+  color: white;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.home_content .btn {
+  padding: 17px;
+  margin: 30px 5px;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+}
+.home_content .learn-more {
+  background-color: #8e7754;
+  border: none;
+  margin-right: 25px;
+}
+.home_content .contact-us {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+.about {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.about .about-img,
+.about .about-content {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.about .about-img img {
+  width: 90%;
+  padding-left: 80px;
+}
+
+.about-icons img {
+  padding: 2px;
+  width: 5%;
+}
+.about-icons img,
+.about-icons p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.offer {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.offer .container {
+  width: 90%;
+  padding: 50px;
+  margin: auto;
+}
+.offer .offer-content,
+.offer .offer-img {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.offer .offer-img img {
+  width: 100%;
+  padding-left: 40px;
+}
+.offer .offer-content h2 {
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+.gallery {
+  width: 90%;
+  margin: 50px auto;
+  padding: 60px;
+  text-align: center;
+}
+
+.gallery-img {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+
+.gallery-img img {
+  width: 100%;
+  padding: 20px;
+  margin-top: 40px;
+}
+.contact {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.contact .container {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.contact .contact-content {
+  width: 50%;
+  float: left;
+  text-align: left;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+.contact .contact-icons {
+  overflow: hidden;
+  margin-bottom: 15px;
+  margin-top: 35px;
+}
+
+.contact .contact-icons img {
+  width: 5%;
+  margin-right: 10px;
+  background-color: #8e7754;
+  float: left;
+}
+
+.contact .contact-map {
+  float: right;
+  margin-top: 50px;
+}
+.information {
+  background-color: #403d38;
+  width: 100%;
+  text-align: left;
+  margin-top: 100px;
+}
+.information .container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+.information hr {
+  max-width: 200;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+.information .info {
+  width: 25%;
+  float: left;
+  padding-right: 25px;
+}
+
+.information .info h5 {
+  padding: 20px;
+  font-size: 20px;
+  color: #f8f8f8;
+}
+.footer {
+  background-color: #353330;
+}
+
+.footer_cap {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer_cap img {
+  margin-bottom: 20px;
+  width: 60%;
+}
+.footer .footer-icons {
+  float: left;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer-icons img {
+  width: 3%;
+}
